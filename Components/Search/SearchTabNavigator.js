@@ -28,7 +28,7 @@ const SearchTabNavigator = createBottomTabNavigator({
               onPress= {()=> props.navigation.navigate('FavouritesTab')}
             >
               <Icon name="star" />
-              <Text>Favourites</Text>
+              <Text>FavouritesTab</Text>
             </Button>
           </FooterTab>
         </Footer>
