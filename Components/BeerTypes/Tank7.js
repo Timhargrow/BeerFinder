@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, ImageBackground} from 'react-native';
 import {Button} from 'native-base';
-var backgroundImage = require('../../Tank7
-.jpg');
+var backgroundImage = require('../../Tank7.jpg');
 
 class BlvrdWht extends Component{
 static navigationOptions = {

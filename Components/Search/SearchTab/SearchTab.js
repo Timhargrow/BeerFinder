@@ -27,7 +27,7 @@ class SearchTab extends Component{
       axios.get('https://jsonplaceholder.typicode.com/todos/1')
         .then((response) => {
           
-          var data = response.data.data[0] ? response.data.data[0] : false
+          var data = response.data ? response.data : false
           console.log(data)
 
           if (data) {
@@ -50,7 +50,7 @@ class SearchTab extends Component{
       return <SearchBody beerData={this.state.beerData}/>
     }
     else{
-      alert("Beer not found")
+      ()=> alert("Beer not found")
     }
   }
 
